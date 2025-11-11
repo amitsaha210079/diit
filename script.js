@@ -171,7 +171,8 @@ function displayProducts(filter) {
                 <div class="product-price">TK ${product.price.toFixed(2)}</div>
                 <div class="product-actions">
                     <button class="view-btn" data-id="${product.id}">View Details</button>
-                    <button class="add-to-cart-btn" data-id="${product.id}">Appointment</button>
+                    <a class="add-to-cart-btn" href="index1.html"> Appointment </a>
+                    <button class="add-to-cart-btn" data-id="${product.id}" >Appointment</button>
                 </div>
             </div>
         `;
